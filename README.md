@@ -52,9 +52,11 @@ The project also analyzes how wind affects travel behavior:
 
 ## Key Findings
 
-  * **Effect of Rain:** The fixed-effects model indicates that the presence of rain has a statistically insignificant negative effect on the number of bike trips. The point estimate suggests a reduction of approximately **77 trips** per station-hour, but with a p-value of **0.195**, this result is not significant at conventional levels.
-  * **Effect of Rain Intensity:** The intensity of rain (in inches per hour) also has a negative, though statistically insignificant (p-value: 0.173), effect on trip counts.
-  * **Effect of Wind:** The polar plots suggest a behavioral pattern where cyclists tend to avoid riding directly into a headwind, a tendency that becomes more pronounced as wind speed increases.
+While the regression models do not yield statistically significant results at conventional levels, the visualizations strongly suggest that weather plays a crucial role in bike-sharing demand. The statistical insignificance may be attributable to the method for handling standard errors, an issue that could be revisited in future analyses.
+
+* **Effect of Rain:** The fixed-effects model indicates that the presence of rain has a negative effect on the number of bike trips. The point estimate suggests a reduction of approximately **77 trips** per station-hour, but with a p-value of **0.195**, this result is not statistically significant. The graphical analysis, however, shows a clear negative impact, suggesting the model's standard errors may be overestimated. Future analysis could employ bootstrap standard errors for more robust inference.
+* **Effect of Rain Intensity:** The intensity of rain (in inches per hour) also has a negative, though statistically insignificant (p-value: 0.173), effect on trip counts in the regression model. As with the binary rain variable, this result is likely influenced by the handling of statistical errors.
+* **Effect of Wind:** The polar plots suggest a strong behavioral pattern where cyclists tend to avoid riding directly into a headwind, a tendency that becomes more pronounced as wind speed increases.
 
 ## Visualizations
 
