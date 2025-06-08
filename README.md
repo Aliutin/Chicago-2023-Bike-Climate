@@ -90,3 +90,9 @@ The notebook generates several visualizations to support the analysis:
     ```
 
 3.  **Execution:** Run the cells in the `Project3_code_orig.ipynb` notebook sequentially. The notebook will process the data, perform the analysis, and generate the visualizations and an interactive map file (`chicago_bike_heatmap_example.html`).
+
+
+Contact information:
+Anton Liutin 
+UW-Madison
+Email and Phony by request
